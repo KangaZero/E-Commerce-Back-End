@@ -76,7 +76,7 @@ router.delete('/:id', async (req, res) => {
     });
     
     if (!deleteCategory) {
-      return res.status(404).json({ message: 'No library card found with that id!' });
+      return res.status(404).json({ message: 'No such category ID found!' });
     } else {
       res.status(200).json(deleteCategory);
     }
