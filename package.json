@@ -8,8 +8,8 @@
     "start": "node server.js",
     "watch": "nodemon server.js",
     "seed": "node seeds/index.js",
-    "lint": "npm eslint **/*.js --quiet",
-    "lint-fix": "npm eslint **/*.js --quiet --fix"
+    "lint": "npx eslint **/*.js --quiet",
+    "lint-fix": "npx eslint **/*.js --quiet --fix"
   },
   "repository": {
     "type": "git",
